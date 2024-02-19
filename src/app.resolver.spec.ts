@@ -17,8 +17,8 @@ describe('AppResolver', () => {
   });
 
   describe('helloWorld', () => {
-    it('should return "Hello World!"', () => {
-      expect(appResolver.helloWorld()).toBe('Hello World!');
+    it('should return "Capybara API !"', () => {
+      expect(appResolver.helloWorld()).toBe('Capybara API !');
     });
   });
   // describe('hello', () => {

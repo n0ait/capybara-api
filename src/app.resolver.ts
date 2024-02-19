@@ -4,6 +4,6 @@ import { Resolver, Query } from '@nestjs/graphql';
 export class AppResolver {
   @Query(() => String)
   helloWorld(): string {
-    return 'Hello World!';
+    return 'Capybara API !';
   }
 }
